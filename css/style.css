@@ -181,6 +181,7 @@ footer{
 .f-container{
     justify-content: space-between;
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 .left-footer{
     flex-flow: column wrap;
@@ -213,6 +214,12 @@ select{
     color: var(--lightblue);
 }
 /* ASIDE */
+hr{
+    background: var(--lightblue);
+    color: var(--lightblue);
+    border: 0;
+    height: 1px;
+}
 aside{
     background-color: var(--bg-footer);
     justify-content: space-between;
@@ -220,4 +227,10 @@ aside{
 
 .a-container{
     justify-content: space-between;
+    padding: 20px 0;
+}
+
+.signup{
+    color: var(--primary-color);
+    background-color: var(--lightblue);
 }
