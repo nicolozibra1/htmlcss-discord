@@ -164,7 +164,7 @@ article > p{
 }
 
 /* SECTION VOICE */
-.voice{
+.voice, .reverse{
     flex-flow: row-reverse wrap;
 }
 
@@ -194,7 +194,7 @@ article > p{
 }
 
 /* FOOTER */
-footer{
+footer, .pg-download{
     color: white;
     background-color: var(--bg-footer);
     
@@ -254,4 +254,18 @@ aside{
 .signup{
     color: var(--primary-color);
     background-color: var(--lightblue);
+}
+/* PAGES DOWNLOAD */
+.pg-download{
+    flex-flow: row wrap;
+}
+.front-left, .front-right{
+    width: 50%;
+    margin: 100px 0;
+}
+.front-title-download{
+    font-size: 80px;
+    line-height: 70%;
+    text-transform: uppercase;
+    padding: 20px 0;
 }
