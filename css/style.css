@@ -30,9 +30,6 @@
     text-decoration: none;
     padding:5px 15px;
 }
-.bttn:hover{
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 20px -7px;
-}
 
 .wave{
     height: 100px;
@@ -42,6 +39,26 @@
 
 .reverse{
     transform: rotate(180deg);
+}
+/* HOVER EFFECT */
+:hover{
+    transition: 0.3s ease-in-out;
+}
+.bttn:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 20px -7px;
+}
+.layover:hover{
+    background-color: rgb(51, 51, 51);
+}
+.lay-light:hover{
+    background-color: #95aaf8;
+}
+.login:hover, .download:hover{
+    color: var(--lightblue);
+}
+ul li a:hover{
+    text-decoration:underline;
+    color: var(--primary-color);
 }
 /* BODY */
 body{
@@ -67,11 +84,7 @@ li > a{
     color: var(--primary-color); 
     text-decoration: none;
 }
-ul li a:hover{
-    text-decoration:underline;
-    transition: 0.4s ease-in-out;
-    color: var(--primary-color);
-}
+
 .login{
     font-weight: 600;
     background-color: var(--primary-color);
