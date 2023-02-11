@@ -11,6 +11,7 @@
     --bg-section: #f6f6f6;
     --bg-footer: #23272a;
     --lightblue: #7289da;
+    --download: #5865f2;
 }
 .debug{
     border: 2px solid red;
@@ -256,6 +257,7 @@ aside{
     background-color: var(--lightblue);
 }
 /* PAGES DOWNLOAD */
+/* HEADER */
 .pg-download{
     flex-flow: row wrap;
 }
@@ -268,4 +270,43 @@ aside{
     line-height: 70%;
     text-transform: uppercase;
     padding: 20px 0;
+}
+.card-container{
+    justify-content: space-around;
+}
+.card{
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: var(--bg-section);
+    border-radius: 20px;
+}
+.cardphoto{
+    overflow: hidden;
+    max-height: 390px;
+    padding: 40px 0 0 0;
+}
+.card-left{
+    margin: 120px 0;
+}
+.card-right{
+    justify-content: center;
+}
+.card-left, .card-right{
+    width: calc((95% / 2) - 20px);
+    flex-flow: column wrap;
+    gap:20px;
+}
+.system{
+    padding: 40px 0 5px 0;
+}
+
+.linux, .mac, .build-p{
+    padding: 0 0 20px 0;
+}
+.buildtest{
+    align-items: flex-start;
+    padding: 20px 40px 20px 10px;
+}
+.titlecard{
+    padding: 20px 0 10px 0;
 }
