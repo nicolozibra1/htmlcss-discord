@@ -10,8 +10,7 @@
     --primary-color: #ffffff;
     --bg-section: #f6f6f6;
     --bg-footer: #23272a;
-    --lightblue: #7289da;
-    --download: #5865f2;
+    --lightblue: #5865f2;
 }
 .debug{
     border: 2px solid red;
@@ -270,6 +269,9 @@ aside{
     line-height: 70%;
     text-transform: uppercase;
     padding: 20px 0;
+}
+.front-p{
+    font-size: 18px;
 }
 .card-container{
     justify-content: space-around;
