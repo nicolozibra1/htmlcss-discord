@@ -12,9 +12,9 @@
     --bg-footer: #23272a;
     --lightblue: #5865f2;
 }
-.debug{
+/* .debug{
     border: 2px solid red;
-}
+} */
 .d-flex{
     display: flex;
     flex-flow: row wrap;
@@ -358,41 +358,71 @@ video{
 
 /* CARD-NITRO */
 .maincontainer{
-    background-color: var(--primary-color);
+    background-color: white;
+    margin-top: 200px;
+    position: relative;
 }
 .boxcard-nitro{
     justify-content: space-between;
     margin-top: -100px;
     z-index: 1;
     padding: 0;
+    position: absolute;
+    top: -100px;
+    left: 300px;
+    width: 100%;
 
 }
 .card-nitro{
     flex-direction: column;
     width:calc(98% / 2);
     padding-bottom: 20px;
-    background-color: var(--primary-color);
+    position: relative;
+    border-radius: 10px;
 }
-.card-nitro > span, .card-title{
-    padding: 10px 30px;
+.nitro-left{
+    background-color: #ffff;
+    background-image: linear-gradient(225deg, #007cc2 20%, #5865f2);
+}
+.nitro-right{
+    background-color: #ffff;
+    background-image: linear-gradient(135deg, #8547c6 25%, #b845c1 62%, #ab5d8a 95%);
+}
+.card-nitro > img{
+    position: absolute;
+    padding: 30px;
+}
+.card-nitro > ul{
+    padding: 70px 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 1.2rem;
+
+}
+.ul-nitro > li{
+    padding: 8px;
 }
 .bttn-subscribe{
     color: black;
     text-decoration: none;
-    background-color: red;
+    background-color: var(--primary-color);
     padding: 15px 0;
-    width: 95%;
+    width: 92%;
     text-align: center;
     margin: auto;
     align-self: flex-end;
+    font-size: 1.2rem;
+    border-radius: 30px;
 }
-.left-bttn{
-    margin-top: 130px;
+.bttn-left{
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
 }
 
 /* CARD-BENEFITS */
 .benefits{
-    padding:0;
+    padding-top: 380px;
 }
 .title-benefits{
     text-align: center;
