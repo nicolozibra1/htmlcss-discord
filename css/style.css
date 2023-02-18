@@ -460,10 +460,92 @@ video{
 }
 
 /* PLANS */
+.maxicard-container{
+    margin-top: 100px;
+    padding: 80px 120px;
+    background-color: var(--bg-section);
+    position: relative;
+    border-radius: 10px;;
+}
 .title-plans{
     text-align: center;
+    font-size: 2.8rem;
 }
+.functionality{
+    margin-top: 50px;
+}
+.function{
+    color: black;
+    width: 60%;
 
+}
+.function > li{
+    padding:20px 0;
+}
+.box-option{
+    width: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-option > img{
+    padding-top: 20px;
+}
+.basic-option > li{
+    color: #2e3338;
+    padding:19px 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 170px;
+}
+.nitro-option > li{
+    color: #2e3338;
+    padding:19px 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.nitro-option{
+    padding-top:15px;
+}
+#megabyte{
+    margin-left: 0;
+}
+.hr-maxicard{
+    background: lightgrey;
+    color: lightgrey;
+    border: 0;
+    height: 1px;
+}
+.sub-maxicard{
+    color: white;
+    background-color: var(--lightblue);
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 20px 0;
+    font-size:14px;
+}
+.custom-window{
+    position: absolute;
+    top: 230px;
+    right: 120px;;
+    width: 210px;
+    height: 960px;
+    border: 2px solid #9f67db;
+    border-radius: 10px;
+}
+.popular{
+    position: absolute;
+    top:220px;
+    right: 160px;
+    color: white;
+    background-color: #ffff;
+    background-image: linear-gradient(135deg, #8547c6 25%, #b845c1 62%, #ab5d8a 95%);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
 /* FAQ */
 .title-faq{
     text-align: center;
