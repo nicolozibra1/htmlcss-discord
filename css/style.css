@@ -369,7 +369,7 @@ video{
     padding: 0;
     position: absolute;
     top: -100px;
-    left: 300px;
+    left: 285px;
     width: 100%;
 
 }
@@ -422,10 +422,12 @@ video{
 
 /* CARD-BENEFITS */
 .benefits{
-    padding-top: 380px;
+    padding-top: 350px;
 }
 .title-benefits{
+    font-size: 2.8rem;
     text-align: center;
+    padding-bottom: 80px;
 }
 .boxbenefits{
     flex-flow: row wrap;
@@ -435,9 +437,26 @@ video{
     width:calc(98% / 2);
     flex-direction: column;
     align-items: center;
+    background-color: var(--bg-section);
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.card-benefits > h2{
+    text-align: center;
+    padding: 40px 110px 20px 110px;
+}
+.card-benefits > img{
+    padding-bottom: 40px;
 }
 .bttn-container{
    justify-content: center;
+}
+.bttn-benefits{
+    background-color: var(--bg-footer);
+    color:white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top:10px;
 }
 
 /* PLANS */
